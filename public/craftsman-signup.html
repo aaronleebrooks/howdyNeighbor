@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sign-up - HowdyNeighbor!</title>
+	<link rel="stylesheet" type="text/css" href="./login.css">
+</head>
+<body>
+		<ul class="topnav">
+			<li><h4>Howdy Neighbor!</h4></li>
+		</ul>
+	<header role= "logo" class="logo" role="banner">
+		<h1>Howdy Neighbor!</h1>
+	</header>
+
+	<main role="signup">
+		<section class="info-section">
+			<img src="logo.com">
+			<h2>Welcome to Howdy Neighbor!</h2>
+			<p>A few ground rules for Craftmen</p>
+			<ul>
+				<li>There are no stupid questions! This is a place for amateurs to communicate with professionals. Feel free to inform DIY-er's how to talk about your craft, but do not riticule them.</li>
+				<li>This is a unique platform to show your stuff! The DIY-er's are here to learn from your experience, not hire you for a job. Feel free to connect to potential clients, but your first priority should be to help!</li>
+				<li>Please be kind and helpful to all members of our community. Please do not swear, flame, or show any disrespect.</li>
+			</ul>
+		</section>
+		<form id='signUp' method= "post" class= "signUp" role="signUp" for="signUp">
+			<label>First Name</label>
+			<input id="username" type="text" name="username" placeholder="Just don't lose your username" for= "username">
+
+			<label>Last Name</label>
+			<input id="confirm_password" type="password" name="confirm_password" placeholder="Type what you wrote above, or else!" for="confirm_password">
+
+			<label>Username</label>
+			<input id="username" type="text" name="username" placeholder="Just don't lose your username" for= "username">
+
+			<label>Password</label>
+			<input id="password" type="password" name="password" placeholder="p4ssw0rd321" for="Password">
+
+			<label>Confirm Password</label>
+			<input id="confirm_password" type="password" name="confirm_password" placeholder="Type what you wrote above, or else!" for="confirm_password">
+
+			<label>ZIP Code</label>
+			<input id="confirm_password" type="password" name="confirm_password" placeholder="Type what you wrote above, or else!" for="confirm_password">
+
+			<label>Years of Experience</label>
+			<input id="confirm_password" type="number" name="confirm_password" placeholder="Type what you wrote above, or else!" for="confirm_password">
+
+			<label>Field of Experience</label>
+			<select>
+			  <option value="plumber">Plumber</option>
+			  <option value="carpenter">Carpenter</option>
+			  <option value="electrician">Electrician</option>
+			  <option value="mechanic">Mechanic</option>
+			</select>
+
+			<div class="buttonForReal">
+			<a href="./questions.html">Sign Up</a>
+			</div>
+			<div class= "confirmation"></div>
+		</form>
+
+		<footer role="signin-link" class= "logIn">
+			<p>Been here before? <a href="./login.html">Log In</a></p>
+		</footer>
+	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/signup.js"></script>
+</body>
+</html>

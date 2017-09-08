@@ -1,0 +1,182 @@
+
+body{
+  background-size: cover;
+  background-color: #BFA380;
+}
+
+body *{
+  box-sizing: border-box;
+}
+
+ul.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    list-style-type: none;
+    color: white;
+    margin: 0px;
+    padding: 0;
+    background-color: #A68053;
+    width: 101%;
+}
+
+ul.topnav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+ul.topnav li {
+  float: left;
+  margin: 10px;
+}
+
+ul.topnav li.right {
+  float: right;
+  margin: 15px auto;
+}
+
+header {
+  display: block;
+  text-align: center;
+  background: #8D5630;
+  padding: 115px 65px 65px;
+  width: 101%;
+  color: #524656;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.signUp {
+  display: inline-block;
+  background: #E4DCCB;
+  width: 45%;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.signUp legend{
+  font-style: normal;
+  color: #8F9CA1;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 auto 45px;
+  font-weight: 300px;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 0;
+}
+
+.signIn {
+  background: #E4DCCB;
+  width: 40%;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.signIn legend{
+  font-style: normal;
+  color: #8F9CA1;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 auto 45px;
+  font-weight: 300px;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 0;
+
+}
+
+input, select,
+button[type='submit']{
+  margin: 20px auto;
+  display: block;
+  width: 320px;
+  border: 2px solid #E7E7E7;
+  padding: 15px;
+  border-radius: 3px;
+  font-size: 18px;
+  text-align: left;
+  height: auto;
+}
+
+button[type='submit'] {
+  display: block;
+  height: auto;
+  background: #EA7A58;
+  border-radius: 3px;
+  color: #FEFEFE;
+  text-align: center;
+  border: 0;
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.button:hover {
+  background-color: #CF4747;
+  cursor: pointer;
+}
+
+.logIn{
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #524656;
+}
+
+.logIn a{
+  color: #524656;
+}
+
+main {
+  margin: 15px auto;
+}
+
+.info-section {
+  display: inline-block;
+  background: #E4DCCB;
+  width: 48%;
+  padding: 40px;
+  margin: 0 15px;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {
+      float: none;
+      text-align: center;
+    }
+
+  header {
+    display: block;
+    text-align: center;
+    background: #8D5630;
+    padding: 55px 15px 35px;
+    width: 103%;
+  }
+
+  .info-section {
+  width: 100%;
+  margin: auto;
+  }
+
+  .signUp {
+    display: inline-block;
+    background: #E4DCCB;
+    width: 100%;
+    margin: 15px auto;
+  }
+
+  .signIn {
+    background: #E4DCCB;
+    width: 100%;
+    padding: 40px;
+    margin: 0 auto;
+  }
+}
